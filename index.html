@@ -4,7 +4,7 @@
   <div id="content"></div>
 
   <script>
-    fetch('mima.txt')
+    fetch('rule.txt')
       .then(response => response.text())
       .then(text => {
         document.getElementById('content').innerHTML = `<pre>${text}</pre>`;
